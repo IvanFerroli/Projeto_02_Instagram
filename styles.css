@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+}
+.site-header{
+    display:flex;
+    align-items: center;
+    background-color:grey;
+    margin-top: 0px;
+    height: 54px;
+    width: 100%;
+}
+.stories{
+    background-color:goldenrod;
+    margin-top:34px;
+    margin-left: 215px;
+    height:118px;
+    width: 614px;
+}
+.logo{
+    display:flex;
+    background-color:blue;
+    align-items: center;
+}
+.logo .logo-instagram{
+    margin-right: 25.5px;
+}
+input{}
+.icons{
+    background-color: chartreuse;
+}
+.instagram{
+    background-color:red;
+}
+.container{
+    margin-top:24px;
+    margin-left: 215px;
+    width: 614px;
+}
+.post{
+    margin-bottom: 60px;
+}
+.post-owner{
+    display:flex;
+}
+.post-owner-avatar{
+    border-radius:15px;
+}
+.post-interaction{}
+.post-like{}
+.post-like img{
+    border-radius:10px;
+}
