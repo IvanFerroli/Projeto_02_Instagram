@@ -53,3 +53,50 @@ input{}
 .post-like img{
     border-radius:10px;
 }
+.stories {
+    display:flex;
+    margin-top: 23px;
+    margin-right: 24px;
+}
+.storie-foward{
+    z-index: 3;
+    margin-right: 8px;
+    margin-top: 46px;
+    min-height: 56px;
+    max-height: 56px;
+}
+.stories-container{
+    display:flex;
+    flex-wrap: nowrap;
+    margin-top: 23px;
+    margin-left: 18px;
+    height: 66px;
+    width: 800px;
+    overflow: hidden;
+    background-color:red;
+}
+.stories-inner-container{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-height: 66px;
+    min-width: 66px;
+    margin-right: 14px;
+    background-color: blue;
+}
+.storie-img{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 2;
+    border-radius:28px;
+}
+.storie-background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    max-height: 66px;
+    max-width: 66px;
+    border-radius:33px;
+}
