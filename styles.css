@@ -487,11 +487,14 @@ footer div {
   }
   .post {
     width: 100vw;
-    max-height: calc(145vw);
+    max-height: 170vw;
     left: 0px;
+    bottom:60px;
   }
   .post:last-child {
-    position: absolute;
+    position:absolute;
+    background-color:blue;
+    left:0px;
   }
   .post figure img {
     max-width: 100vw;
@@ -501,7 +504,7 @@ footer div {
     position: absolute;
     width: 100vw;
     top: 172px;
-    bottom: 54px;
+    height: 508px;
   }
   .storie-foward {
     display: none;
