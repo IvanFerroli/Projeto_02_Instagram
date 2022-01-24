@@ -276,11 +276,21 @@ aside {
   margin-left: 470px;
 }
 .post-interaction {
+  display: flex;
+  width: 100%;
   font-size: 18px;
   margin-top: 10px;
-  margin-left: 15px;
+  margin-left: 0px;
   margin-bottom: 10px;
   background-color: red;
+}
+.primary-post-interactions{
+    margin-left: 15px;
+    background-color: blue;
+}
+.secondary-post-interactions{
+    margin-left: 480px;
+    background-color: green;
 }
 .post-like img {
   margin-left: 15px;
@@ -393,9 +403,11 @@ aside {
     .stories{
         max-width: 100vh;
         margin-top: 54px;
+        border: none;
     }
     .post{
         max-width: 100vh;
+        left: 0px;
     }
     .post figure img{
         max-width: 100vh;
@@ -413,6 +425,9 @@ aside {
     .post-interaction{
         width: 100%;
         margin-left: 0px;
+    }
+    .secondary-post-interactions{
+        margin-left: 78%;
     }
 }
 
