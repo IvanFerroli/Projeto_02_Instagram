@@ -45,7 +45,7 @@ input {
     border: 1px solid #DBDBDB;
 }
 .icons {
-    margin-top: 13px;
+    margin-top: 18px;
 }
 .instagram {
 }
@@ -76,7 +76,7 @@ input {
   margin-top: 23px;
   margin-left: 18px;
   height: 85px;
-  width: 800px;
+  width: 100%;
   overflow: hidden;
 }
 .stories-inner-container {
@@ -115,7 +115,7 @@ input {
   font-style: normal;
 }
 aside {
-    position: absolute;
+    position: fixed;
     top: 111px;
     left: 858px;
     height: 443px;
@@ -280,6 +280,7 @@ aside {
   margin-top: 10px;
   margin-left: 15px;
   margin-bottom: 10px;
+  background-color: red;
 }
 .post-like img {
   margin-left: 15px;
@@ -314,3 +315,105 @@ aside {
   font-weight: 400;
   font-style: normal;
 }
+@media only screen and (max-width: 935px) {
+    aside{
+        display: none;
+    }
+    .auxiliary-container-header{
+        display: flex;
+        justify-content: space-between;
+        width: 936px;
+        margin-left: 26px;
+        margin-right: 0px;
+    }
+    .stories{
+        margin-left: 150px;
+        width: 612px;
+    }
+    .container{
+        left: 150px;
+        width: 612px;
+    }
+}
+@media only screen and (max-width: 885px) {
+    .stories{
+        margin-left: 120px;
+    }
+    .container{
+        left: 120px;
+    }
+}
+@media only screen and (max-width: 835px) {
+    .stories{
+        margin-left: 100px;
+    }
+    .container{
+        left: 100px;
+    }
+}
+@media only screen and (max-width: 785px) {
+    .stories{
+        margin-left: 75px;
+    }
+    .container{
+        left: 75px;
+    }
+}
+@media only screen and (max-width: 735px) {
+    .stories{
+        margin-left: 50px;
+    }
+    .container{
+        left: 50px;
+    }
+}
+@media only screen and (max-width: 685px) {
+    .stories{
+        margin-left: 15px;
+    }
+    .container{
+        left: 15px;
+    }
+}
+@media only screen and (max-width: 655px) {
+    .stories{
+        margin-left: 0px;
+    }
+    .container{
+        left: 0px;
+    }
+}
+@media only screen and (max-width: 614px) {
+    .auxiliary-container-header{
+        width: 100vh;
+    }
+    .hidden{
+        display: none;
+    }
+    .stories{
+        max-width: 100vh;
+        margin-top: 54px;
+    }
+    .post{
+        max-width: 100vh;
+    }
+    .post figure img{
+        max-width: 100vh;
+    }
+    .container{
+        max-width: 100vh;
+        top: 172px;
+    }
+    .storie-foward{
+        display: none;
+    }
+    .stories-container{
+        background-color: #fafafa;
+    }
+    .post-interaction{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+

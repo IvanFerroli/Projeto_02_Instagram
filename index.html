@@ -16,16 +16,16 @@
       <div class="auxiliary-container-header">
         <div class="logo">
             <ion-icon name="logo-instagram" class="logo-instagram"></ion-icon>
-            <div class="instagram-">
+            <div class="hidden">
                 <img src="assets/logo.png">
             </div>
         </div>
         <input type="text" placeholder="Pesquisar"></input>
         <div class="icons">
             <ion-icon name="paper-plane-outline" style="margin-right: 25px;"></ion-icon>
-            <ion-icon name="compass-outline" style="margin-right: 25px;"></ion-icon>
-            <ion-icon name="heart-outline" style="margin-right: 25px;"></ion-icon>
-            <ion-icon name="person-outline" style="margin-right: 25px;"></ion-icon>
+            <ion-icon name="compass-outline" style="margin-right: 25px;" class="hidden"></ion-icon>
+            <ion-icon name="heart-outline" style="margin-right: 25px;" class="hidden"></ion-icon>
+            <ion-icon name="person-outline" style="margin-right: 25px;" class="hidden"></ion-icon>
         </div>
       </div>
     </header>
@@ -84,10 +84,14 @@
           </div>
             <figure><img src="https://picsum.photos/612?random=1"/></figure>
           <div class="post-interaction">
-            <ion-icon name="heart-outline" style="margin-right: 10px;"></ion-icon>
-            <ion-icon name="chatbubble-outline" style="margin-right: 10px;"></ion-icon>
-            <ion-icon name="paper-plane-outline" style="margin-right: 480px;"></ion-icon>
-            <ion-icon name="bookmark-outline"></ion-icon>
+            <div class="primary-post-interactions">
+              <ion-icon name="heart-outline" style="margin-right: 10px;"></ion-icon>
+              <ion-icon name="chatbubble-outline" style="margin-right: 10px;"></ion-icon>
+              <ion-icon name="paper-plane-outline"></ion-icon>
+            </div>
+            <div class="secondary-post-interactions">
+              <ion-icon name="bookmark-outline"></ion-icon>
+            </div>
           </div>
           <div class="post-like">
             <img src="https://picsum.photos/20?random=1">
@@ -466,7 +470,7 @@
           <span>Ver tudo</span>
         </div>
         <div class="suggestion">
-          <img src="https://picsum.photos/32?random=9"/>
+          <img src="https://picsum.photos/32?random=10"/>
           <div class="suggestion-data">
             <span>Fulanin_96</span>
             <span>Segue você</span>
@@ -474,7 +478,7 @@
           </div>
         </div>
         <div class="suggestion">
-          <img src="https://picsum.photos/32?random=10"/>
+          <img src="https://picsum.photos/32?random=11"/>
           <div class="suggestion-data">
             <span>filo_96</span>
             <span>Novo no instagram</span>
@@ -482,7 +486,7 @@
           </div>
         </div>
         <div class="suggestion">
-          <img src="https://picsum.photos/32?random=9"/>
+          <img src="https://picsum.photos/32?random=12"/>
           <div class="suggestion-data">
             <span>Fulanin_96</span>
             <span>Segue você</span>
@@ -490,7 +494,7 @@
           </div>
         </div>
         <div class="suggestion">
-          <img src="https://picsum.photos/32?random=10"/>
+          <img src="https://picsum.photos/32?random=13"/>
           <div class="suggestion-data">
             <span>filo_96</span>
             <span>Novo no instagram</span>
@@ -498,7 +502,7 @@
           </div>
         </div>
         <div class="suggestion">
-          <img src="https://picsum.photos/32?random=10"/>
+          <img src="https://picsum.photos/32?random=14"/>
           <div class="suggestion-data">
             <span>filo_96</span>
             <span>Novo no instagram</span>
@@ -513,6 +517,9 @@
         © 2021 INSTAGRAM DO FACEBOOK
       </div>
     </aside>
+    <footer>
+
+    </footer>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   </body>
 </html>
