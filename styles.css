@@ -249,7 +249,6 @@ aside {
   right: calc(14vw + 30px);
   width: 612px;
   height: 100vh;
-  background-color: grey;
 }
 .post {
   height: 749px;
@@ -485,14 +484,14 @@ footer div {
   }
   .post {
     width: 100vw;
-    max-height: 170vw;
+    max-height: 140vw;
     left: 0px;
-    bottom:60px;
+    bottom: 60px;
   }
   .post:last-child {
-    position:absolute;
-    background-color:blue;
-    left:0px;
+    position: absolute;
+    left: 0px;
+    bottom: 54px;
   }
   .post figure img {
     max-width: 100vw;
@@ -502,7 +501,7 @@ footer div {
     position: absolute;
     width: 100vw;
     top: 172px;
-    height: 508px;
+    height: 100vh;
   }
   .storie-foward {
     display: none;
